@@ -1,0 +1,8 @@
+div[data-testid="sidebarColumn"] {
+  visibility: none;
+  display: none;
+}
+div[data-testid="primaryColumn"] {
+  max-width: 100% !important;
+  width: 100% !important;
+}

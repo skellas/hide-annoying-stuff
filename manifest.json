@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Hide Annoying Stuff",
+  "version": "0.1.0",
+  "description": "Hide the annoying parts of websites that I regularly visit.",
+  "content_scripts": [
+    {
+      "css": ["styles/twitter.css"],
+      "js": [],
+      "matches": ["https://twitter.com/*"]
+    },
+    {
+      "css": ["styles/facebook.css"],
+      "js": [],
+      "matches": ["https://*.facebook.com/", "https://*.facebook.com/*"]
+    }
+  ]
+}
